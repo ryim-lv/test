@@ -19,5 +19,6 @@ Performance Test Exercise - write a performance test for url https://test.k6.io/
 3. Write a check to ensure the response is 200.
 4. Identify and explain what the important metrics are from the output and explain the reasoning.
 
-Bonus1: Record the number of wins and losses for each scenario that gets executed.
-Bonus2: Based on the website, what other things can be tested. What other scenarios should be tested? 
+Bonus1: Add a counter of the number of successful scenarios that occurred. 
+Bonus2: Record the number of wins and losses for each scenario that gets executed. 
+Bonus3: Based on the website, what other things can be tested. What other scenarios should be tested?

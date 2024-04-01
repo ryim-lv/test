@@ -1,5 +1,7 @@
-import http from 'k6/http';
-import { sleep } from 'k6';
+import http from "k6/http";
+import { check, group, sleep } from "k6";
+import { Counter, Rate, Trend } from "k6/metrics";
+import { randomIntBetween } from "https://jslib.k6.io/k6-utils/1.0.0/index.js";
 
 export const options = {
   // A number specifying the number of VUs to run concurrently.
