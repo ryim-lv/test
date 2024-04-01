@@ -1,0 +1,31 @@
+# Dependencies
+node/
+node_modules/
+
+# Build and test artifacts
+coverage/
+ignore/
+*.log
+tmp
+
+# MacOS
+.DS_Store
+
+# VSCode
+.vscode
+
+# IntelliJ
+*.iml
+.idea/
+
+# Local SonarQube
+.scannerwork
+
+# Mobile
+test/apps/ios
+test/apps/android
+
+#compute/
+
+.env
+compute/
